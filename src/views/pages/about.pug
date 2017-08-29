@@ -1,0 +1,32 @@
+block title
+	title About
+.wrapper
+	section.section.hero
+		ul.socials
+			each item in ['vk', 'gh', 'in']
+				li.socials__item
+					a(href="##" class=`socials__link socials__link_${item}`)
+		a(href="#").hamburger
+		a(href="#").down-arrow
+		.hero__title
+			img(src="/", alt="night-bg").section-title
+			.user.hero__user-block
+				.user__photo
+				.user__name
+				.user__desc
+	section.section.about
+		.about__left
+			svg.triangle.triangle--fill--white
+			.title.about__section-title
+				| About Me
+			.user-about
+				.user-about__picture
+				.user-about__title.subtitle
+					| Who I am?
+				.user-about__text
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum delectus obcaecati sed amet saepe quasi voluptates aspernatur cum. Consectetur aspernatur molestias nulla quis obcaecati accusantium deleniti expedita aliquam ab numquam.
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nihil fugiat nemo temporibus id numquam?
+
+		.about__right
+			svg.triangle.triangle--fill--beige
+	section.section.map

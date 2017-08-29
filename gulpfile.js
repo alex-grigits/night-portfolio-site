@@ -47,7 +47,7 @@ gulp.task('sass', () => {
 gulp.task('pug', () => {
 	// let locals = require('./content.json');
 
-	gulp.src('src/views/index.pug')
+	gulp.src('src/views/**/*.pug')
 		.pipe(plumber())
 		.pipe(pug({
 			// locals : locals
