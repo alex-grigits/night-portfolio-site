@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+.vscode/
+psd/
+
+# Build directory
+dist/
+
+# Other files
+project.lock.json
